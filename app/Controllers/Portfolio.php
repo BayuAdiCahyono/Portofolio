@@ -20,7 +20,7 @@ class Portfolio extends BaseController
             'active_menu' => 'about',
             'education' => [
                 [
-                    'degree' => 'Sarjana Teknik Informatika',
+                    'degree' => 'Teknik Informatika',
                     'institution' => 'Sekolah Tinggi Ilmu Komputer Cipta Karya Informatika',
                     'year' => '2021-2025',
                     'gpa' => '3.61'
@@ -58,8 +58,7 @@ class Portfolio extends BaseController
                     'description' => 'Full-stack e-commerce solution built with CodeIgniter 4 and MySQL. Features include user authentication, product management, shopping cart, and payment integration.',
                     'image' => '',
                     'technologies' => ['CodeIgniter 4', 'MySQL', 'Bootstrap', 'JavaScript'],
-                    'github' => 'https://github.com/username/ecommerce',
-                    'demo' => 'https://demo-ecommerce.com'
+                    'github' => 'https://github.com/BayuAdiCahyono/paswa_BayuAdiCahyono',
                 ],
                 [
                     'id' => 2,
@@ -68,7 +67,6 @@ class Portfolio extends BaseController
                     'image' => '',
                     'technologies' => ['React', 'PHP', 'PostgreSQL', 'TailwindCSS'],
                     'github' => 'https://github.com/username/taskmanager',
-                    'demo' => 'https://demo-taskmanager.com'
                 ],
                 [
                     'id' => 3,
@@ -77,17 +75,7 @@ class Portfolio extends BaseController
                     'image' => '',
                     'technologies' => ['JavaScript', 'Chart.js', 'OpenWeather API', 'CSS3'],
                     'github' => 'https://github.com/username/weather-dashboard',
-                    'demo' => 'https://demo-weather.com'
                 ],
-                [
-                    'id' => 4,
-                    'title' => 'Blog Management System',
-                    'description' => 'Content management system for blogs with WYSIWYG editor, category management, and SEO optimization features.',
-                    'image' => '/images/.jpg',
-                    'technologies' => ['Laravel', 'Vue.js', 'MySQL', 'TinyMCE'],
-                    'github' => 'https://github.com/username/blog-cms',
-                    'demo' => 'https://demo-blog.com'
-                ]
             ]
         ];
         return view('layout/main', $data);

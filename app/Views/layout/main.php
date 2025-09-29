@@ -106,7 +106,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
                     <h3 class="text-lg font-semibold mb-4">Portfolio</h3>
-                    <p class="text-gray-400">Passionate web developer creating modern and responsive solutions.</p>
+                    <p class="text-gray-400">Pengembang web yang bersemangat menciptakan solusi modern dan responsif.</p>
                 </div>
                 <div>
                     <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
