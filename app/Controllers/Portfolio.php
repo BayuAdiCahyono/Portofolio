@@ -56,7 +56,7 @@ class Portfolio extends BaseController
                     'id' => 1,
                     'title' => 'E-Commerce Platform',
                     'description' => 'Full-stack e-commerce solution built with CodeIgniter 4 and MySQL. Features include user authentication, product management, shopping cart, and payment integration.',
-                    'image' => '/images/projects/ecommerce.jpg',
+                    'image' => '',
                     'technologies' => ['CodeIgniter 4', 'MySQL', 'Bootstrap', 'JavaScript'],
                     'github' => 'https://github.com/username/ecommerce',
                     'demo' => 'https://demo-ecommerce.com'
@@ -65,7 +65,7 @@ class Portfolio extends BaseController
                     'id' => 2,
                     'title' => 'Task Management App',
                     'description' => 'Modern task management application with real-time updates. Built using React frontend and PHP backend with RESTful API.',
-                    'image' => '/images/projects/taskmanager.jpg',
+                    'image' => '',
                     'technologies' => ['React', 'PHP', 'PostgreSQL', 'TailwindCSS'],
                     'github' => 'https://github.com/username/taskmanager',
                     'demo' => 'https://demo-taskmanager.com'
@@ -74,7 +74,7 @@ class Portfolio extends BaseController
                     'id' => 3,
                     'title' => 'Weather Dashboard',
                     'description' => 'Interactive weather dashboard that displays current weather and forecasts for multiple cities. Features beautiful charts and responsive design.',
-                    'image' => '/images/projects/weather.jpg',
+                    'image' => '',
                     'technologies' => ['JavaScript', 'Chart.js', 'OpenWeather API', 'CSS3'],
                     'github' => 'https://github.com/username/weather-dashboard',
                     'demo' => 'https://demo-weather.com'
@@ -83,7 +83,7 @@ class Portfolio extends BaseController
                     'id' => 4,
                     'title' => 'Blog Management System',
                     'description' => 'Content management system for blogs with WYSIWYG editor, category management, and SEO optimization features.',
-                    'image' => '/images/projects/blog.jpg',
+                    'image' => '/images/.jpg',
                     'technologies' => ['Laravel', 'Vue.js', 'MySQL', 'TinyMCE'],
                     'github' => 'https://github.com/username/blog-cms',
                     'demo' => 'https://demo-blog.com'
