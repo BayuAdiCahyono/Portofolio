@@ -37,14 +37,7 @@
 
                 <!-- CTA Buttons -->
                 <div class="flex flex-col sm:flex-row gap-4 animate-fade-in-up animation-delay-600">
-                    <a href="<?= base_url('/contact') ?>"
-                        class="group bg-white/20 backdrop-blur-sm text-white border-2 border-white/30 px-8 py-4 rounded-full font-medium hover:bg-white hover:text-indigo-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-center">
-                        Hubungi Saya
-                        <svg class="inline-block ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
-                        </svg>
-                    </a>
-                    <a href="<?= base_url('/projects') ?>"
+                    <a href="<?= base_url('/about') ?>"
                         class="group bg-white text-indigo-600 px-8 py-4 rounded-full font-medium hover:bg-white/90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-center">
                         Selengkapnya
                         <svg class="inline-block ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -70,13 +63,6 @@
                     <div class="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-to-r from-indigo-300 to-purple-300 rounded-full opacity-60 animate-pulse-slow animation-delay-200"></div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Scroll Indicator -->
-    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-20">
-        <div class="w-6 h-10 border-2 border-white/60 rounded-full flex justify-center">
-            <div class="w-1 h-3 bg-white/80 rounded-full mt-2 animate-pulse"></div>
         </div>
     </div>
 </section>
@@ -246,7 +232,7 @@
 </section>
 
 <!-- Featured Technologies -->
-<section class="py-20 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 relative overflow-hidden">
+<section class="py-20 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 relative overflow-hidden">
     <!-- Decorative Background -->
     <div class="absolute top-0 left-0 w-full h-full">
         <div class="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-purple-200/30 to-pink-200/30 rounded-full blur-3xl"></div>
@@ -255,7 +241,7 @@
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Technologies</span> I Work With
+            <span class="">Technologies</span> I Work With
         </h2>
         <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8">
             <div class="flex flex-col items-center p-4 bg-white/70 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 border border-white/20">

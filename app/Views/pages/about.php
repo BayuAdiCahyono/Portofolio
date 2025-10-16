@@ -1,18 +1,10 @@
 <!-- About Hero Section -->
-<section class="pt-20 pb-16 bg-gradient-to-br from-purple-400 via-pink-400 to-indigo-600 relative overflow-hidden">
+<section class="py-20 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 relative overflow-hidden">
     <!-- Animated Background Elements -->
     <div class="absolute inset-0 overflow-hidden pointer-events-none">
-        <!-- Floating Shapes -->
-        <div class="absolute top-20 left-20 w-72 h-72 bg-white/10 rounded-full mix-blend-multiply animate-float"></div>
-        <div class="absolute top-40 right-20 w-96 h-96 bg-blue-300/20 rounded-full mix-blend-multiply animate-float animation-delay-200"></div>
-        <div class="absolute bottom-20 left-40 w-80 h-80 bg-indigo-200/20 rounded-full mix-blend-multiply animate-float animation-delay-400"></div>
-
-        <!-- Gradient Orbs -->
-        <div class="absolute top-1/4 left-1/3 w-48 h-48 bg-gradient-to-r from-blue-400/30 to-indigo-500/30 rounded-full blur-xl animate-pulse-slow"></div>
-        <div class="absolute bottom-1/3 right-1/4 w-64 h-64 bg-gradient-to-r from-indigo-400/30 to-purple-500/30 rounded-full blur-xl animate-pulse-slow animation-delay-300"></div>
-
-        <!-- Grid Pattern -->
-        <div class="absolute inset-0 bg-white/5" style="background-image: radial-gradient(circle at 2px 2px, rgba(255,255,255,0.15) 1px, transparent 0); background-size: 40px 40px;"></div>
+        <div class="absolute top-10 left-10 w-64 h-64 bg-white/10 rounded-full mix-blend-multiply animate-float"></div>
+        <div class="absolute bottom-10 right-10 w-80 h-80 bg-yellow-200/20 rounded-full mix-blend-multiply animate-float animation-delay-200"></div>
+        <div class="absolute top-1/2 left-1/4 w-72 h-72 bg-blue-200/20 rounded-full mix-blend-multiply animate-float animation-delay-400"></div>
     </div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -39,7 +31,7 @@
             <div class="order-2 lg:order-1 lg:col-span-2">
                 <div class="relative">
                     <div class="w-96 h-96 mx-auto lg:mx-0 rounded-3xl overflow-hidden shadow-2xl border-4 border-white/50 backdrop-blur-sm">
-                        <img src="<?= base_url('images/profile.jpg') ?>"
+                        <img src="<?= base_url('images/about-profile.jpg') ?>"
                             alt="Foto Profil Tentang"
                             class="w-full h-full object-cover"
                             onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzg0IiBoZWlnaHQ9IjM4NCIgdmlld0JveD0iMCAwIDM4NCAzODQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzODQiIGhlaWdodD0iMzg0IiBmaWxsPSIjRjNGNEY2Ii8+CjxjaXJjbGUgY3g9IjE5MiIgY3k9IjE0NCIgcj0iNTgiIGZpbGw9IiM5QjlCQTAiLz4KPHBhdGggZD0iTTE5MiAyMjBDMTU0LjggMjIwIDEyNCAyNTAuOCAxMjQgMjg4VjM4NEgyNjBWMjg4QzI2MCAyNTAuOCAyMjkuMiAyMjAgMTkyIDIyMFoiIGZpbGw9IiM5QjlCQTAiLz4KPC9zdmc+'">
@@ -55,20 +47,59 @@
             <!-- About Text - Diperluas -->
             <div class="order-1 lg:order-2 lg:col-span-3">
                 <div class="space-y-8 bg-white/70 backdrop-blur-sm rounded-3xl p-10 shadow-2xl border border-white/20">
-                    <h2 class="text-4xl md:text-x4l font-bold text-gray-900 leading-tight">
-                        Halo, Saya <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Bayu Adi Cahyono</span>👋
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+                        Halo, Saya <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">John Doe</span>
                     </h2>
 
                     <div class="space-y-6 text-lg text-gray-700 leading-relaxed">
                         <p>
-                            Saya seorang fresh graduate yang sedang seru-serunya mendalami dunia web development. Saat ini saya fokus belajar CodeIgniter 4, TailwindCSS, dan JavaScript, sekaligus memahami konsep MVC supaya bisa bikin website yang lebih rapi dan terstruktur.
+                            Saya adalah seorang <strong>full-stack developer</strong> yang passionate dengan pengalaman lebih dari 3 tahun
+                            dalam menciptakan pengalaman digital yang indah, fungsional, dan berpusat pada pengguna.
+                            Saya mengkhususkan diri dalam teknologi web modern dan memiliki mata yang tajam untuk desain dan UX.
                         </p>
                         <p>
-                            Awalnya, setelah lulus MA saya sempat bekerja selama setahun sebelum akhirnya benar-benar memutuskan untuk kuliah di bidang IT. Dari situlah perjalanan saya di dunia pemrograman dimulai, dan sampai sekarang saya terus bersemangat untuk belajar hal-hal baru. 🚀
+                            Perjalanan saya dimulai dengan rasa ingin tahu tentang bagaimana website bekerja, yang membawa saya
+                            untuk menjelajahi bahasa pemrograman seperti <strong>PHP, JavaScript, dan Python</strong>. Saya menyukai tantangan
+                            mengubah masalah kompleks menjadi solusi yang sederhana dan indah.
                         </p>
                         <p>
-                            Saya percaya bahwa setiap kode yang ditulis adalah langkah kecil menuju solusi, dan setiap tampilan yang dirancang adalah kesempatan untuk memberikan pengalaman terbaik bagi pengguna."
+                            Ketika tidak sedang coding, Anda dapat menemukan saya menjelajahi teknologi baru, berkontribusi
+                            pada proyek open-source, atau berbagi pengetahuan melalui artikel blog dan tutorial. Saya percaya
+                            pada pembelajaran berkelanjutan dan selalu mengikuti tren industri terbaru.
                         </p>
+                        <p>
+                            Filosofi saya dalam pengembangan adalah <em>"Code with purpose, design with empathy"</em> -
+                            setiap baris kode yang saya tulis memiliki tujuan yang jelas, dan setiap design yang saya buat
+                            selalu mempertimbangkan pengalaman pengguna.
+                        </p>
+                    </div>
+
+                    <!-- Quick Stats - Diperbaiki layout -->
+                    <div class="grid grid-cols-2 gap-6 pt-8">
+                        <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white p-6 rounded-xl text-center shadow-lg transform hover:scale-105 transition-all duration-300">
+                            <div class="text-3xl font-bold mb-1">25+</div>
+                            <div class="text-sm font-medium">Proyek Selesai</div>
+                        </div>
+                        <div class="bg-gradient-to-r from-blue-500 to-cyan-500 text-white p-6 rounded-xl text-center shadow-lg transform hover:scale-105 transition-all duration-300">
+                            <div class="text-3xl font-bold mb-1">15+</div>
+                            <div class="text-sm font-medium">Klien Puas</div>
+                        </div>
+                    </div>
+
+                    <!-- Additional Info Cards -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6">
+                        <div class="bg-gradient-to-r from-emerald-100 to-teal-100 p-4 rounded-lg text-center border border-emerald-200">
+                            <div class="text-2xl font-bold text-emerald-600">3+</div>
+                            <div class="text-xs text-emerald-700 font-medium">Tahun Pengalaman</div>
+                        </div>
+                        <div class="bg-gradient-to-r from-orange-100 to-red-100 p-4 rounded-lg text-center border border-orange-200">
+                            <div class="text-2xl font-bold text-orange-600">8+</div>
+                            <div class="text-xs text-orange-700 font-medium">Teknologi Dikuasai</div>
+                        </div>
+                        <div class="bg-gradient-to-r from-violet-100 to-purple-100 p-4 rounded-lg text-center border border-violet-200">
+                            <div class="text-2xl font-bold text-violet-600">24/7</div>
+                            <div class="text-xs text-violet-700 font-medium">Support Ready</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -77,7 +108,7 @@
 </section>
 
 <!-- Education Section -->
-<section class="py-20 bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 relative overflow-hidden">
+<section class="py-20 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 relative overflow-hidden">
     <!-- Background Effects -->
     <div class="absolute inset-0">
         <div class="absolute top-0 left-0 w-full h-full bg-black/10"></div>
@@ -131,9 +162,9 @@
                             <h3 class="text-xl font-semibold text-white mb-2">Sarjana Ilmu Komputer</h3>
                             <p class="text-yellow-200 font-medium mb-2">Universitas Teknologi Indonesia</p>
                             <div class="flex justify-between items-center">
-                                <span class="text-white/80">2021-2024</span>
+                                <span class="text-white/80">2020-2024</span>
                                 <span class="bg-green-400 text-green-900 px-3 py-1 rounded-full text-sm font-medium">
-                                    IPK: 3.61
+                                    IPK: 3.75
                                 </span>
                             </div>
                         </div>
@@ -166,11 +197,11 @@
 </section>
 
 <!-- Skills Section -->
-<section class="py-20 bg-gradient-to-br from-cyan-50 via-blue-50 to-indigo-50 relative overflow-hidden">
+<section class="py-20 bg-gradient-to-br from-indigo-50 via-blue-50 to-purple-50 relative overflow-hidden">
     <!-- Background Pattern -->
     <div class="absolute inset-0">
-        <div class="absolute top-20 left-20 w-64 h-64 bg-gradient-to-r from-blue-200/30 to-purple-200/30 rounded-full blur-2xl animate-pulse-slow"></div>
-        <div class="absolute bottom-20 right-20 w-80 h-80 bg-gradient-to-r from-pink-200/30 to-indigo-200/30 rounded-full blur-2xl animate-pulse-slow animation-delay-200"></div>
+        <div class="absolute top-20 left-20 w-64 h-64 bg-gradient-to-r from-blue-200/30 to-indigo-200/30 rounded-full blur-2xl animate-pulse-slow"></div>
+        <div class="absolute bottom-20 right-20 w-80 h-80 bg-gradient-to-r from-indigo-200/30 to-purple-200/30 rounded-full blur-2xl animate-pulse-slow animation-delay-200"></div>
     </div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -192,8 +223,7 @@
                     'from-indigo-500 to-purple-500',
                     'from-cyan-500 to-blue-500',
                     'from-pink-500 to-rose-500',
-                    'from-yellow-500 to-orange-500',
-                    'from-red-500 to-orange-500'
+                    'from-yellow-500 to-orange-500'
                 ];
                 ?>
                 <?php foreach ($skills as $index => $skill): ?>
@@ -242,7 +272,7 @@
 </section>
 
 <!-- Values & Approach Section -->
-<section class="py-20 bg-gradient-to-r from-violet-500 via-purple-500 to-fuchsia-500 relative overflow-hidden">
+<section class="py-20 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 relative overflow-hidden">
     <!-- Background Effects -->
     <div class="absolute inset-0">
         <div class="absolute top-0 left-0 w-full h-full bg-black/10"></div>
@@ -303,11 +333,11 @@
 </section>
 
 <!-- Personal Interests -->
-<section class="py-20 bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50 relative overflow-hidden">
+<section class="py-20 bg-gradient-to-br from-indigo-50 via-blue-50 to-purple-50 relative overflow-hidden">
     <!-- Decorative Background -->
     <div class="absolute inset-0">
-        <div class="absolute top-10 right-10 w-72 h-72 bg-gradient-to-r from-emerald-200/30 to-teal-200/30 rounded-full blur-2xl animate-float"></div>
-        <div class="absolute bottom-10 left-10 w-80 h-80 bg-gradient-to-r from-cyan-200/30 to-blue-200/30 rounded-full blur-2xl animate-float animation-delay-300"></div>
+        <div class="absolute top-10 right-10 w-72 h-72 bg-gradient-to-r from-blue-200/30 to-indigo-200/30 rounded-full blur-2xl animate-float"></div>
+        <div class="absolute bottom-10 left-10 w-80 h-80 bg-gradient-to-r from-indigo-200/30 to-purple-200/30 rounded-full blur-2xl animate-float animation-delay-300"></div>
     </div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -363,7 +393,7 @@
 </section>
 
 <!-- Call to Action Section -->
-<section class="py-20 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 relative overflow-hidden">
+<section class="py-20 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 relative overflow-hidden">
     <!-- Background Effects -->
     <div class="absolute inset-0">
         <div class="absolute top-10 left-10 w-96 h-96 bg-white/5 rounded-full blur-3xl animate-pulse-slow"></div>
@@ -380,7 +410,13 @@
             Mari kita ciptakan sesuatu yang luar biasa bersama-sama!
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-
+            <a href="<?= base_url('/contact') ?>"
+                class="group bg-white/20 backdrop-blur-sm text-white border-2 border-white/30 px-8 py-4 rounded-full font-medium hover:bg-white hover:text-purple-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                Hubungi Saya
+                <svg class="inline-block ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                </svg>
+            </a>
             <a href="<?= base_url('/projects') ?>"
                 class="group bg-white text-purple-600 px-8 py-4 rounded-full font-medium hover:bg-white/90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
                 Lihat Portfolio
