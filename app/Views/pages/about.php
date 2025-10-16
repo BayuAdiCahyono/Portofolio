@@ -2,9 +2,17 @@
 <section class="pt-20 pb-16 bg-gradient-to-br from-purple-400 via-pink-400 to-indigo-600 relative overflow-hidden">
     <!-- Animated Background Elements -->
     <div class="absolute inset-0 overflow-hidden pointer-events-none">
-        <div class="absolute top-10 left-10 w-64 h-64 bg-white/10 rounded-full mix-blend-multiply animate-float"></div>
-        <div class="absolute bottom-10 right-10 w-80 h-80 bg-yellow-200/20 rounded-full mix-blend-multiply animate-float animation-delay-200"></div>
-        <div class="absolute top-1/2 left-1/4 w-72 h-72 bg-blue-200/20 rounded-full mix-blend-multiply animate-float animation-delay-400"></div>
+        <!-- Floating Shapes -->
+        <div class="absolute top-20 left-20 w-72 h-72 bg-white/10 rounded-full mix-blend-multiply animate-float"></div>
+        <div class="absolute top-40 right-20 w-96 h-96 bg-blue-300/20 rounded-full mix-blend-multiply animate-float animation-delay-200"></div>
+        <div class="absolute bottom-20 left-40 w-80 h-80 bg-indigo-200/20 rounded-full mix-blend-multiply animate-float animation-delay-400"></div>
+
+        <!-- Gradient Orbs -->
+        <div class="absolute top-1/4 left-1/3 w-48 h-48 bg-gradient-to-r from-blue-400/30 to-indigo-500/30 rounded-full blur-xl animate-pulse-slow"></div>
+        <div class="absolute bottom-1/3 right-1/4 w-64 h-64 bg-gradient-to-r from-indigo-400/30 to-purple-500/30 rounded-full blur-xl animate-pulse-slow animation-delay-300"></div>
+
+        <!-- Grid Pattern -->
+        <div class="absolute inset-0 bg-white/5" style="background-image: radial-gradient(circle at 2px 2px, rgba(255,255,255,0.15) 1px, transparent 0); background-size: 40px 40px;"></div>
     </div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -184,7 +192,8 @@
                     'from-indigo-500 to-purple-500',
                     'from-cyan-500 to-blue-500',
                     'from-pink-500 to-rose-500',
-                    'from-yellow-500 to-orange-500'
+                    'from-yellow-500 to-orange-500',
+                    'from-red-500 to-orange-500'
                 ];
                 ?>
                 <?php foreach ($skills as $index => $skill): ?>
@@ -371,13 +380,7 @@
             Mari kita ciptakan sesuatu yang luar biasa bersama-sama!
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="<?= base_url('/contact') ?>"
-                class="group bg-white/20 backdrop-blur-sm text-white border-2 border-white/30 px-8 py-4 rounded-full font-medium hover:bg-white hover:text-purple-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-                Hubungi Saya
-                <svg class="inline-block ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
-                </svg>
-            </a>
+
             <a href="<?= base_url('/projects') ?>"
                 class="group bg-white text-purple-600 px-8 py-4 rounded-full font-medium hover:bg-white/90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
                 Lihat Portfolio

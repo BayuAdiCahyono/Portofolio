@@ -40,7 +40,8 @@ class Portfolio extends BaseController
                 ['name' => 'Laravel', 'level' => 75],
                 ['name' => 'React', 'level' => 70],
                 ['name' => 'TailwindCSS', 'level' => 85],
-                ['name' => 'MySQL', 'level' => 82]
+                ['name' => 'MySQL', 'level' => 82],
+                ['name' => 'AI', 'level' => 78]
             ]
         ];
         return view('layout/main', $data);

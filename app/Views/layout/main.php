@@ -28,7 +28,7 @@
                 <!-- Logo/Brand -->
                 <div class="flex-shrink-0">
                     <a href="<?= base_url('/') ?>" class="text-2xl font-bold text-indigo-600 hover:text-indigo-700 transition-colors">
-                        Portfolio
+                        My Profile
                     </a>
                 </div>
 

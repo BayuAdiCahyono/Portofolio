@@ -14,7 +14,7 @@
         <div class="text-center mb-16">
             <h1 class="text-4xl md:text-5xl font-bold text-white mb-6 text-shadow-lg">Hubungi Saya</h1>
             <p class="text-xl text-white/90 max-w-3xl mx-auto text-shadow">
-                Punya proyek atau hanya ingin menyapa? Saya senang mendengar dari Anda!
+                Punya proyek atau ingin Diskusi? Saya sangat terbuka.
             </p>
         </div>
     </div>
@@ -213,92 +213,6 @@
 
                 <!-- Success/Error Messages -->
                 <div id="form-message" class="hidden mt-6 p-4 rounded-lg"></div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ Section -->
-<section class="py-20 bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 relative overflow-hidden">
-    <!-- Background Effects -->
-    <div class="absolute inset-0">
-        <div class="absolute top-0 left-0 w-full h-full bg-black/10"></div>
-        <div class="absolute top-10 right-10 w-72 h-72 bg-white/10 rounded-full blur-xl animate-float"></div>
-        <div class="absolute bottom-10 left-10 w-80 h-80 bg-white/5 rounded-full blur-xl animate-float animation-delay-300"></div>
-    </div>
-
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 text-shadow-lg">Pertanyaan yang Sering Ditanyakan</h2>
-            <p class="text-xl text-white/90 text-shadow">Pertanyaan umum tentang bekerja dengan saya</p>
-        </div>
-
-        <div class="space-y-6">
-            <!-- FAQ Item 1 -->
-            <div class="bg-white/20 backdrop-blur-sm rounded-xl shadow-2xl overflow-hidden border border-white/30">
-                <button class="faq-toggle w-full px-6 py-4 text-left flex justify-between items-center hover:bg-white/10 transition-colors">
-                    <h3 class="text-lg font-semibold text-white">Berapa lama timeline proyek biasanya?</h3>
-                    <svg class="w-5 h-5 text-white transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                    </svg>
-                </button>
-                <div class="faq-content hidden px-6 pb-4">
-                    <p class="text-white/90">
-                        Timeline proyek bervariasi tergantung kompleksitas dan ruang lingkup. Website sederhana biasanya memakan waktu 2-4 minggu,
-                        sementara aplikasi web yang lebih kompleks bisa memakan waktu 6-12 minggu. Saya akan memberikan timeline detail
-                        selama konsultasi awal.
-                    </p>
-                </div>
-            </div>
-
-            <!-- FAQ Item 2 -->
-            <div class="bg-white/20 backdrop-blur-sm rounded-xl shadow-2xl overflow-hidden border border-white/30">
-                <button class="faq-toggle w-full px-6 py-4 text-left flex justify-between items-center hover:bg-white/10 transition-colors">
-                    <h3 class="text-lg font-semibold text-white">Apakah Anda bekerja dengan klien internasional?</h3>
-                    <svg class="w-5 h-5 text-white transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                    </svg>
-                </button>
-                <div class="faq-content hidden px-6 pb-4">
-                    <p class="text-white/90">
-                        Ya! Saya bekerja dengan klien di seluruh dunia. Saya nyaman bekerja lintas zona waktu
-                        dan menggunakan berbagai alat komunikasi untuk memastikan kolaborasi yang lancar terlepas dari lokasi.
-                    </p>
-                </div>
-            </div>
-
-            <!-- FAQ Item 3 -->
-            <div class="bg-white/20 backdrop-blur-sm rounded-xl shadow-2xl overflow-hidden border border-white/30">
-                <button class="faq-toggle w-full px-6 py-4 text-left flex justify-between items-center hover:bg-white/10 transition-colors">
-                    <h3 class="text-lg font-semibold text-white">Teknologi apa yang Anda spesialisasikan?</h3>
-                    <svg class="w-5 h-5 text-white transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                    </svg>
-                </button>
-                <div class="faq-content hidden px-6 pb-4">
-                    <p class="text-white/90">
-                        Saya mengkhususkan diri dalam teknologi pengembangan web modern termasuk PHP (CodeIgniter, Laravel),
-                        JavaScript (React, Vue.js), Python, dan berbagai database. Saya juga bekerja dengan
-                        TailwindCSS, Bootstrap, dan framework frontend lainnya.
-                    </p>
-                </div>
-            </div>
-
-            <!-- FAQ Item 4 -->
-            <div class="bg-white/20 backdrop-blur-sm rounded-xl shadow-2xl overflow-hidden border border-white/30">
-                <button class="faq-toggle w-full px-6 py-4 text-left flex justify-between items-center hover:bg-white/10 transition-colors">
-                    <h3 class="text-lg font-semibold text-white">Apakah Anda menyediakan dukungan dan maintenance berkelanjutan?</h3>
-                    <svg class="w-5 h-5 text-white transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                    </svg>
-                </button>
-                <div class="faq-content hidden px-6 pb-4">
-                    <p class="text-white/90">
-                        Tentu saja! Saya menawarkan berbagai paket dukungan termasuk perbaikan bug, pembaruan keamanan,
-                        peningkatan fitur, dan maintenance umum. Kita dapat mendiskusikan paket dukungan terbaik
-                        untuk kebutuhan spesifik Anda.
-                    </p>
-                </div>
             </div>
         </div>
     </div>
